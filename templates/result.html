@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Scene Detection app</title>
+    </head>
+
+    <body>
+        <h1>Scene Detection app</h1>
+
+        <form action = "http://localhost:5000/upload" method = "POST" 
+         enctype = "multipart/form-data">
+         <input type = "file" name = "file" />
+         <input type = "submit"/>
+      </form>   
+
+    <br/>
+      <img src={{image_link}}/>
+      <h3>Scene: {{detected_scene}}</h3>
+    </body>
+
+</html>
