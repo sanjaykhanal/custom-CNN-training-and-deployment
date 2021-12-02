@@ -1,3 +1,5 @@
 __pycache__/
 test/
 *.h5
+*.log
+UPLOADS/
